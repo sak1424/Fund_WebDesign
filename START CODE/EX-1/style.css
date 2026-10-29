@@ -1,0 +1,45 @@
+.btn{
+    color: white;
+    background-color:rgb(14, 110, 110);
+    width: 100px;
+    height: 27px;
+    border-radius: 30px;
+    border: white;
+}
+
+.btn2{
+    background-color:rgb(252, 181, 29);
+    width: 100px;
+    height: 27px;
+    border-radius: 30px;
+    border: white;
+
+
+}
+
+.btn3{
+    color: white;
+    background-color:rgb(146, 17, 182);
+    width: 100px;
+    height: 27px;
+    border-radius: 30px;
+    border: white;
+}
+
+body{
+    background-color: grey;
+}
+
+.box{
+    background-color: white;
+    box-sizing: content-box;
+    padding:20px;
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:30px;
+    margin-top:30px;
+    /* width : 500px; */
+    border-radius: 10px;
+   
+    
+}

@@ -1,0 +1,14 @@
+/* TODO */
+.btn{
+    background-color:pink;
+    border: white;
+    width: 80px;
+    padding:10px;
+    border-radius: 30px;
+
+}
+
+.btn:hover{
+    background-color: rgb(128, 54, 66);
+    border: black;
+}

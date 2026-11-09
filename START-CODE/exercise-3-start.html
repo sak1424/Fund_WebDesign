@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            font-size:20px;
+            font-weight:bold;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .background{
+            height: 100vh;
+            background: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            /* gap: 1em; */
+        }
+
+        .box{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            margin: 1em;
+            flex-grow: 8;
+        }
+
+        .header{
+            background: #1e90ff;
+            height: 100px;
+            padding: 1em;
+            box-shadow: 0 4px 8px rgba(0, 119, 234, 0.3);
+            flex-shrink:0;
+            margin: 1em;
+            border-radius: 0.5em;
+            color: white;
+            box-shadow: 0 6px 4px  #0077ea;
+        }
+
+        .main{
+            background: #3cb371;
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            border-radius: 0.5em;
+            flex-grow: 1;
+            flex-wrap: wrap;
+            padding: 1em;
+            
+            box-shadow: 0 6px 4px  #2f8d59;
+        }
+
+        .item{
+            background: #2f8d59;
+            height: 90px;
+            width: 90px; 
+            text-align: center;
+            box-shadow: 0 6px 4px #226741;
+            color:white;
+            border-radius: 0.5em;
+            align-content: space-around;
+            font-weight:lighter;
+        }
+
+        .sidebar{
+            background: #ff6347;
+            border-radius: 0.5em;
+            width : 150px;
+            color:white;
+            padding:1em;
+            flex-shrink: 0;
+            text-align: center;
+            box-shadow: 0 6px 4px  #e02200;
+        }
+        .item_main{
+            background: #3cb371;
+            
+            
+            color:white;
+            height: 20px;
+            width: 50px;
+
+        }
+
+        .footer{
+            background: #4169e1;
+            height: 100px;
+            flex-shrink: 0;
+            margin: 1em;    
+            border-radius: 0.5em;
+            color: white;
+            box-shadow: 0 6px 4px  #1d44b8;
+            padding: 1em;
+        }
+
+        .box2{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <x class="header">
+            header
+        </x>
+        <div class="box">
+            <div class="main">
+                <div class="item_main">main</div>
+                <div class="box2">
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                    <div class="item">item</div> 
+                </div>
+            </div>
+            <div class="sidebar">
+                side bar
+            </div>
+        </div>
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+</html>

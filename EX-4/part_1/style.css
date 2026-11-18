@@ -1,0 +1,33 @@
+
+.content{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    justify-content: center;
+    align-items:center;
+}
+
+.big{
+    background:#8bcf37;
+    font-size:100px;
+
+   
+    align-items:center;
+}
+
+.small{
+    display:none;
+}
+
+@media only screen and (max-width:1000px){
+    .small{
+        display:block;
+        background:#b82f09;
+        font-size:20px;
+
+    }
+
+    .big{
+        display:none;
+    }
+}
